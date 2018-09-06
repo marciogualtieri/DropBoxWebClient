@@ -1,3 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Dropbox Webclient](#dropbox-webclient)
+    - [Overview](#overview)
+    - [Requirements](#requirements)
+      - [Dropbox Access Token](#dropbox-access-token)
+      - [Software Dependencies](#software-dependencies)
+    - [Building the App](#building-the-app)
+    - [Running the App](#running-the-app)
+    - [Running Tests](#running-tests)
+    - [Developer's Guide](#developers-guide)
+  - [Resetting Migrations](#resetting-migrations)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Dropbox Webclient
 
 <kbd>![Magic Squares App](./images/dropbox_webclient1.gif)</kbd>
