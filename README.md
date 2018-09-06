@@ -45,9 +45,7 @@ Some of the skills this app aims to showcase:
 
 The Dropbox API requires an authentication token (which is provided to the user on the creation of a [Dropbox app](https://www.dropbox.com/developers/apps/create)).
 
-For this reason, I have opted to leverage Django's authentication capabilities: This app's user is required to have a valid account.
-
-Once the account is created, the user may edit ones profile and save ones Dropbox token.
+For this reason, I have opted to leverage Django's authentication capabilities: This app's user is required to have a valid account. Once the account is created, the user may edit ones profile and save ones Dropbox token.
 
 You will need a valid Dropbox account. Create a [Dropbox app](https://www.dropbox.com/developers/app) for your account and generate its correspondent access token.
 
@@ -55,7 +53,7 @@ You will need a valid Dropbox account. Create a [Dropbox app](https://www.dropbo
 
 This app has been developed using Python 3.6.3 and Django 1.9.0.
 
-On Ubuntu Linux, you may execute the following command on a terminal to install this version:
+On Ubuntu Linux, you may execute the following command on a terminal to install this particular version:
 
     sudo pip3 install "Django~=1.9.0"
 
@@ -77,11 +75,11 @@ Execute the following command to start the service:
 
     python3 manage.py runserver
 
-Note that the admin user is required to create a test user setup with a valid Dropbox token.
+Note that the admin user is required to create at least one test user with a valid Dropbox token to use the app.
 
 ### Running Tests
 
-The following command will execute the unit tests:
+The following command will run all the unit tests:
 
     python3 manage.py test -v 2
 
@@ -121,4 +119,4 @@ You should get an output similar to the following:
     OK
     Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
 
-I'm using Python unittest. Specifically for mocking the Dropbox API, so a live connection to Dropbox isn't required, I'm unittest.mock.
+I'm using Python unittest. Specifically for mocking the Dropbox API, so a live connection to Dropbox isn't required, I'm using unittest.mock.
