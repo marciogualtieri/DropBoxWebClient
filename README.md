@@ -10,8 +10,6 @@
     - [Building the App](#building-the-app)
     - [Running the App](#running-the-app)
     - [Running Tests](#running-tests)
-    - [Developer's Guide](#developers-guide)
-      - [Resetting Migrations](#resetting-migrations)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
