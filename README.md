@@ -124,11 +124,3 @@ You should get an output similar to the following:
     Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
 
 I'm using Python unittest. Specifically for mocking the Dropbox API, so a live connection to Dropbox isn't required, I'm unittest.mock.
-
-### Developer's Guide
-
-#### Resetting Migrations
-
-For my own future reference, to reset the migrations, delete all files under `migrations`  (excepting `__init__.py`), delete `db.sqlite3` as well, then execute the following command on a terminal:
-
-    python3 manage.py makemigrations
