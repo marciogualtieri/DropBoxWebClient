@@ -127,7 +127,7 @@ I'm using Python unittest. Specifically for mocking the Dropbox API, so a live c
 
 ### Developer's Guide
 
-## Resetting Migrations
+#### Resetting Migrations
 
 For my own future reference, to reset the migrations, delete all files under `migrations`  (excepting `__init__.py`), delete `db.sqlite3` as well, then execute the following command on a terminal:
 
