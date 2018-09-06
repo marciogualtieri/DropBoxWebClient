@@ -4,28 +4,23 @@
 
 ### Overview
 
-This project consists of a web GUI wrapper for the [Dropbox API V2 Python Implementation](https://www.dropbox.com/developers/documentation/python).
+This project consists of a web GUI wrapper for the [Python implementation of the Dropbox API V2](https://www.dropbox.com/developers/documentation/python).
 
-Despite of what the app's name might suggest, it's not the intention of this project to cover all of the functionality offered by the Dropbox API.
+Despite of what the app's name might suggest, it's not the intention of this project to cover all of the functionality offered by the Dropbox API. Only a single feature is implemented at the moment: Uploading files to a Dropbox folder.
 
-Only a single feature is implemented at the moment: Uploading files to a Dropbox folder.
-
-A user might use this web interface to browse a file from the local file system and upload it to Dropbox.
+A user might use this web app to browse a file from the local file system and upload it to Dropbox.
 
 The purpose of this project is to showcase some of my skills developing web applications using the Django Framework, specifically templates.
 
-I already have a [REST API developed with Django in my portfolio](https://github.com/marciogualtieri/risk_model_builder/tree/master/risk_model_api), so I thought that a sample code showing front-end development with Django alone would be interesting.
+I already have a [REST API developed with Django in my portfolio](https://github.com/marciogualtieri/risk_model_builder), so I thought that a sample code showing front-end development with Django alone would be interesting.
 
-This REST API I mentioned is part of a full-stack solution, but the UI has been developed in Javascript (specifically Vue.JS).
-
-Some of the Django skills this app aims to showcase:
+Some of the skills this app aims to showcase:
 
 - Creation of a Django project from scratch.
-- Use of Django models.
-- Use of Django templates.
+- Use of Django models and templates.
 - Django authentication setup.
-- Extension of the Django user model to support additional fields (in the case of this particular app, the Dropbox access token).
-- Use of static files in Django (specifically for the CSS file).
+- Extension of the Django user model to support additional fields (the Dropbox access token).
+- Use of static files in Django (the CSS file).
 - Basic HTML/CSS (I'm also using bootstrap).
 - Integration with the Dropbox API.
 
