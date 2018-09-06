@@ -1,0 +1,7 @@
+*.egg-info
+.idea
+dist
+build
+*.pyc
+*.sqlite3
+dropbox_webclient/media
